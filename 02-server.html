@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleon | Administracion</title>
+    <style>
+        .left {
+            text-align: left;
+        }
+        .center {
+            text-align: center;
+        }
+        .right {
+            text-align: right;
+        }
+        .size-three{
+            width: 33%;
+        }
+        .size-half{
+            width: 50%;
+        }
+        .float-left{
+            float: left;
+        }
+        footer {
+            position: fixed;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            width: 100%;
+            height: 40px;
+            background: grey;
+        }
+        table {
+             border-collapse: collapse;
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+         }
+         .main {
+            margin-top: 30px;
+        }
+       
+        .navbar {
+        overflow: hidden;
+        background-color: rgb(232, 232, 232);
+        position: fixed;
+        top: 0; 
+        width: 100%; 
+        height: 50px;
+        } 
+    </style>
+</head>
+
+<body>
+    <div class="navbar right">
+        <img src="assets/logo.png" width="50px" height="50px"> 
+    </div>
+    <h3>Inventario</h3>
+    <div class="main">
+        <div class="size-half">
+            <h3>Tipos de pasteles</h3>
+            <table>
+                <tr>
+                    <th>SKU</th>
+                    <th>Tipo</th>
+                    <th>Sabor</th>
+                    <th>Disponibles</th>
+                </tr>
+                <tr>
+                    <td>00023</td>
+                    <td>Tradicional</td>
+                    <td>Chocolate</td>
+                    <td>6</td>>
+                </tr>
+                <tr>
+                    <td>00024</td>
+                    <td>Tradicional</td>
+                    <td>Vainilla</td>
+                    <td>2</td>>
+                </tr>
+                <tr>
+                    <td>00025</td>
+                    <td>Tradicional</td>
+                    <td>Fresa</td>
+                    <td>0</td>>
+                </tr>
+                <tr>
+                    <td>00033</td>
+                    <td>Cupcake</td>
+                    <td>Chocolate</td>
+                    <td>2</td>>
+                </tr>
+                <tr>
+                    <td>00034</td>
+                    <td>Cupcake</td>
+                    <td>Vainilla</td>
+                    <td>10</td>>
+                </tr>
+                <tr>
+                    <td>00035</td>
+                    <td>Pauy</td>
+                    <td>Fresa</td>
+                    <td>2</td>>
+                </tr>
+                <tr>
+                    <td>00043</td>
+                    <td>Pay</td>
+                    <td>Chocolate</td>
+                    <td>2</td>>
+                </tr>
+                <tr>
+                    <td>00044</td>
+                    <td>Pay</td>
+                    <td>Vainill</td>
+                    <td>10</td>>
+                </tr>
+                <tr>
+                    <td>00045</td>
+                    <td>Pay</td>
+                    <td>Fresa</td>
+                    <td>2</td>>
+                </tr>
+                <tr>
+                    <td>00043</td>
+                    <td>Nieve</td>
+                    <td>Chocolate</td>
+                    <td>2</td>>
+                </tr>
+                <tr>
+                    <td>00044</td>
+                    <td>Nieve</td>
+                    <td>Vainill</td>
+                    <td>0</td>>
+                </tr>
+                <tr>
+                    <td>00045</td>
+                    <td>Nieve</td>
+                    <td>Fresa</td>
+                    <td>2</td>>
+                </tr>
+            </table>
+        </div>
+        <div class="size-half">
+            <h3>Adornos</h3>
+            <table>
+                <tr>
+                    <th>SKU</th>
+                    <th>Tipo</th>
+                    <th>Disponibles</th>
+                </tr>
+                <tr>
+                    <td>00123</td>
+                    <td>Flores</td>
+                    <td>6</td>>
+                </tr>
+                <tr>
+                    <td>00124</td>
+                    <td>Confitado</td>
+                    <td>2</td>>
+                </tr>
+                <tr>
+                    <td>00125</td>
+                    <td>Escultura comestible</td>
+                    <td>0</td>>
+                </tr>
+                <tr>
+                    <td>00126</td>
+                    <td>Fondant</td>
+                    <td>2</td>>
+                </tr>
+                <tr>
+                    <td>00127</td>
+                    <td>M&M</td>
+                    <td>10</td>>
+                </tr>
+            </table>
+        </div>
+        <h3>Pedidos</h3>
+        <p></p>
+        <table>
+            <tr>
+                <th>Numero de Pedido</th>
+                <th>Estatus</th>
+                <th>Nombre</th>
+                <th>Telefono</th>
+                <th>Correo</th>
+                <th>Pedido</th>
+                <th>Total de orden</th>
+            </tr>
+            <tr>
+                <td>A024521</td>
+                <td>Entregado</td>
+                <td>Maria Anders</td>
+                <td>8185748752</td>
+                <td>mander@mail.com</td>
+                <td>
+                    <div>Pastel: Cupcake</div>
+                    <div>Sabor: Vainilla</div>
+                    <div>Adornos: Fondant</div>
+                </td>
+                <td>$300.00</td>
+            </tr>
+            <tr>
+                <td>A024545</td>
+                <td>En Proceso</td>
+                <td>Francisco Chang</td>
+                <td>8178545697</td>
+                <td>fchang@mail.com</td>
+                <td>
+                    <div>Pastel: Tradicional</div>
+                    <div>Sabor: Chocolate</div>
+                    <div>Adornos: Ninguno</div>
+                </td>
+                <td>$230.00</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <div class="left size-three float-left">Pasteleria Pasteleon, Mty N.L, Mexico</div>
+        <div class="center size-three float-left">Atencion Lunes-Sabado 9:00 - 18:00 y Domingos 10:00-15:00</div>
+        <div class="right size-three float-left">Tel: 8180808080</div>
+    </footer>
+
+</body>
+
+</html>
